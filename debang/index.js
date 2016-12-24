@@ -10944,11 +10944,10 @@
 	  url: '../src/data/debang1.txt',
 	  dataType: 'json',
 	  success: function success(ajaxjson) {
-	    // creatPage(json,ajaxjson);
-	    console.log(1);
+	    creatPage(json, ajaxjson);
 	  },
 	  error: function error() {
-	    // alert('错了');
+	    alert('错了');
 	  }
 	});
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(7)))

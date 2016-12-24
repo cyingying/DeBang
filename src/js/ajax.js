@@ -62,10 +62,9 @@ $.ajax({
   url:'../src/data/debang1.txt',
   dataType:'json',
   success:function(ajaxjson){
-    // creatPage(json,ajaxjson);
-    console.log(1);
+    creatPage(json,ajaxjson);
   },
   error:function(){
-    // alert('错了');
+    alert('错了');
   }
 })
